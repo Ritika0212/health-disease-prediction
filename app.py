@@ -30,22 +30,22 @@ if st.button("Predict"):
 
 st.set_page_config(page_title="Health App", page_icon="🩺")
 
-st.title("🩺 Health Disease Prediction App")
+
 
 st.write("Choose a page below 👇")
 
 # Buttons for navigation
 if st.button("🩸 Diabetes Prediction"):
-    st.switch_page("pages/diabetes.py")
+    st.switch_page("health_prediction_project/pages/diabetes.py")
 
 if st.button("❤️ Heart Disease"):
-    st.switch_page("pages/heart_disease.py")
+    st.switch_page("health_prediction_project/pages/heart_disease.py")
 
 if st.button("🧪 Kidney Disease"):
-    st.switch_page("pages/kidney_disease.py")
+    st.switch_page("health_prediction_project/pages/kidney_disease.py")
 
 if st.button("⚖️ BMI Calculator"):
-    st.switch_page("pages/BMI_calculator.py")
+    st.switch_page("health_prediction_project/pages/BMI_calculator.py")
 
 if st.button("ℹ️ About"):
-    st.switch_page("pages/about.py")
+    st.switch_page("health_prediction_project/pages/about.py")

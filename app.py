@@ -28,11 +28,24 @@ if st.button("Predict"):
 
 
 
-st.set_page_config(
-    page_title="Health Prediction",
-    page_icon="🩺"
-)
+st.set_page_config(page_title="Health App", page_icon="🩺")
 
 st.title("🩺 Health Disease Prediction App")
 
-st.write("Select pages from sidebar 👈")
+st.write("Choose a page below 👇")
+
+# Buttons for navigation
+if st.button("🩸 Diabetes Prediction"):
+    st.switch_page("pages/diabetes.py")
+
+if st.button("❤️ Heart Disease"):
+    st.switch_page("pages/heart_disease.py")
+
+if st.button("🧪 Kidney Disease"):
+    st.switch_page("pages/kidney_disease.py")
+
+if st.button("⚖️ BMI Calculator"):
+    st.switch_page("pages/BMI_calculator.py")
+
+if st.button("ℹ️ About"):
+    st.switch_page("pages/about.py")

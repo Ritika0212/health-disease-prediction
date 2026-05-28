@@ -39,13 +39,13 @@ if st.button("🩸 Diabetes Prediction"):
     st.switch_page("pages/diabetes.py")
 
 if st.button("❤️ Heart Disease"):
-   st.switch_page("pages/heart_disease.py")
+   st.switch_page("pages/heartdisease.py")
 
 if st.button("🧪 Kidney Disease"):
-    st.switch_page("pages/kidney_disease.py")
+    st.switch_page("pages/kidneydisease.py")
 
-if st.button("⚖️ BMI Calculator"):
-    st.switch_page("pages/BMI_calculator.py")
+if st.button("⚖️ bmi Calculator"):
+    st.switch_page("pages/bmialculator.py")
 
 if st.button("ℹ️ About"):
     st.switch_page("pages/about.py")

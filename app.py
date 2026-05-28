@@ -25,3 +25,10 @@ if st.button("Predict"):
         st.success("✅ Low Risk (Healthy)")
 
 
+import streamlit as st
+
+st.set_page_config(
+    page_title="Health Disease Prediction",
+    page_icon="🩺",
+    layout="centered"
+)

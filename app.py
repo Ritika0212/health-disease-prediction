@@ -36,16 +36,16 @@ st.write("Choose a page below 👇")
 
 # Buttons for navigation
 if st.button("🩸 Diabetes Prediction"):
-    st.switch_page("C:\pages\diabetes.py")
+    st.switch_page("pages\\diabetes.py")
 
 if st.button("❤️ Heart Disease"):
-   st.switch_page("C:\pages\heartdisease.py")
+   st.switch_page("pages\\heartdisease.py")
 
 if st.button("🧪 Kidney Disease"):
-    st.switch_page("C:\pages\kidneydisease.py")
+    st.switch_page("pages\\kidneydisease.py")
 
 if st.button("⚖️ bmi Calculator"):
-    st.switch_page("C:\pages\bmicalculator.py")
+    st.switch_page("pages\\bmicalculator.py")
 
 if st.button("ℹ️ About"):
-    st.switch_page("C:\pages\about.py")
+    st.switch_page("pages\\about.py")
